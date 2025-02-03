@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Airstream';
+    src: url('Airstream.eot');
+    src: local('Airstream'),
+        url('Airstream.eot?#iefix') format('embedded-opentype'),
+        url('Airstream.woff2') format('woff2'),
+        url('Airstream.woff') format('woff'),
+        url('Airstream.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
