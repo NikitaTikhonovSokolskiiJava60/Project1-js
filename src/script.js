@@ -1,5 +1,6 @@
 const detailedImage = document.querySelector(".detailedContainer-image");
 const detailedTitle = document.querySelector(".detailedContainer-title");
+const boxesElements = document.querySelectorAll(".cars-image");
 
 function setDetails(boxElement) {
     detailedImage.alt = boxElement.getAttribute("data-alt-text");
@@ -8,5 +9,5 @@ function setDetails(boxElement) {
 for(let i = 0; i < boxesElements.length; i++) {
     boxesElements[i].addEventListener("Click", function () {
         setDetails(boxesElements[i]);
-    })
+    });
 }

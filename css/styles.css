@@ -129,6 +129,7 @@ h2 {
         object-fit: cover;
         justify-content: space-around;
         width: 150px;
+        height: 100px;
     }
 }
 
@@ -176,7 +177,8 @@ h2 {
         align-items: center;
         object-fit: cover;
         justify-content: space-around;
-        width: 150px;
+        width: 200px;
+        height: 140px;
     }
         
 }
