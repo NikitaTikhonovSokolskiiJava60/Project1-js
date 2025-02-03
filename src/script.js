@@ -15,11 +15,11 @@ for(let i = 0; i < boxesElements.length; i++) {
         function AnimationHandler () {
             detailedImage.classList.remove('animate__animated', 'animate__fadeInBottomLeft');
         }
-        detailedTitle.classList.add('animate__animated', 'animate__fadeInBottomLeft');
+        detailedTitle.classList.add('animate__animated', 'animate__fadeInUp');
         detailedTitle.style.setProperty('--animate-duration', '1s');
         detailedTitle.addEventListener("animationend", AnimationHandler1, false);
         function AnimationHandler1 () {
-            detailedTitle.classList.remove('animate__animated', 'animate__fadeInBottomLeft');
+            detailedTitle.classList.remove('animate__animated', 'animate__fadeInUp');
         }
     });
 }
