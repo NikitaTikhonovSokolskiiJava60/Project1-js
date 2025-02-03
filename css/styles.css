@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 html {
     font-size: 62.5%;
 }
@@ -32,6 +33,17 @@ h2 {
 
 .cars-image:hover {
     border: 2px solid gold;
+}
+
+.detailedContainer-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.detailedContainer-title:hover {
+    overflow: visible;
+    white-space: initial;
+    text-overflow: initial;
 }
 
 @media screen and (orientation: portrait) {
@@ -154,14 +166,14 @@ h2 {
     }
         
     .detailedContainer-image{
-        width: 70vw;
+        width: 60vw;
     }
     .detailedContainer-title{
         background-color: red;
         text-align: center;
         font-family: 'Airstream';
         font-size: 3rem;
-        width: 70vw;
+        width: 60vw;
         letter-spacing: 0.1rem;
     }
     .cars {
@@ -177,8 +189,8 @@ h2 {
         align-items: center;
         object-fit: cover;
         justify-content: space-around;
-        width: 200px;
-        height: 140px;
+        width: 150px;
+        height: 110px;
     }
         
 }
