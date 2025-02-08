@@ -5,6 +5,10 @@ html {
 }
 
 body {
+    --cars-image-width: 150px;
+    --cars-image-height: 100px;
+}
+body {
     background-image: url(../images/Background.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -85,14 +89,15 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     overflow: scroll;
-    width: 75vw;
+    width: 85vw;
     height: 43vh;
 }
 .cars-image {
     display: flex;
     object-fit: cover;
     justify-content: space-around;
-    width: 100px;
+    height: calc(var(--cars-image-height) - 15px);
+    width: calc(var(--cars-image-width) - 15px);
 }
 }
 
@@ -141,8 +146,8 @@ h2 {
         align-items: center;
         object-fit: cover;
         justify-content: space-around;
-        width: 150px;
-        height: 100px;
+        width: calc(var(--cars-image-width));
+        height: calc(var(--cars-image-height));
     }
 }
 
@@ -192,8 +197,8 @@ h2 {
         align-items: center;
         object-fit: cover;
         justify-content: space-around;
-        width: 150px;
-        height: 110px;
+        width: calc(var(--cars-image-width));
+        height: calc(var(--cars-image-height) + 10px);
     }
         
 }
