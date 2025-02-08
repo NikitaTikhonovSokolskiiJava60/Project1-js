@@ -39,6 +39,7 @@ h2 {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+    border-radius: 12px;
 }
 .detailedContainer-title:hover {
     overflow: visible;
@@ -71,7 +72,8 @@ h2 {
 .detailedContainer-title{
     background-color: red;
     width: 100vw;
-    position: relative;
+    position: absolute;
+    top:45vh;
     text-align: center;
     font-family: 'Airstream';
     font-size: 3rem;
@@ -121,6 +123,8 @@ h2 {
     }
     .detailedContainer-title{
         background-color: red;
+        position: relative;
+        bottom: 4vh;
         text-align: center;
         font-family: 'Airstream';
         font-size: 3rem;
@@ -166,14 +170,16 @@ h2 {
     }
         
     .detailedContainer-image{
-        width: 60vw;
+        width: 50vw;
+        object-fit: cover;
     }
     .detailedContainer-title{
         background-color: red;
+        position: absolute;
+        bottom: 12vh;
         text-align: center;
         font-family: 'Airstream';
         font-size: 3rem;
-        width: 60vw;
         letter-spacing: 0.1rem;
     }
     .cars {
